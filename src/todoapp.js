@@ -23,12 +23,10 @@ const completeTask = (name) => {
 }
 
 const uncompleteTask = (name) => {
-    const task = tasks.find(task => task.name === name);
-    task.done = true;
+    //IMPLEMENTAR
 }
 
 const addTimer = (name, time) => {
-    const task = tasks.find(task => task.name === name);
-    task.timer = time;
+    //IMPLEMENTAR
 }
 
